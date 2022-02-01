@@ -12,12 +12,12 @@
 let nums = [4,5,6,7,0,1,2];
 function numbers (x) {
     for(let i = 0; i < nums.length; i++){
-        if(nums[i] == x) {
-            return i
+        if(nums[i] == x) {  // comparing nums[i] nums index of 0 is equal to the parameter (x)
+            return i //return the index of i
         }else{
-            return -1
+            return -1 //return -1 if we input a number that is n/a
         }
     }
 
 }
-console.log(numbers(2));
+console.log(numbers(2));  //function parameter
